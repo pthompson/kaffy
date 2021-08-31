@@ -30,10 +30,10 @@ defmodule Kaffy.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:phoenix, "~> 1.4"},
-      {:phoenix_html, "~> 2.11"},
+      {:phoenix, "~> 1.5.12"},
+      {:phoenix_html, "~> 3.0"},
       {:mock, "~> 0.3.0", only: :test},
-      {:ecto, "~> 3.0"},
+      {:ecto, "~> 3.7"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
